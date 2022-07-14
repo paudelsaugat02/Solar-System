@@ -1,0 +1,114 @@
+body{
+    background-color: #15133C;
+}
+
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.6rem;
+    padding-left: 1.5rem;
+}
+
+.nav-item{
+    padding-left: 1rem;
+}
+
+hr{
+    width: 100%;
+    color:aliceblue;
+    margin-top: 0.01rem;
+}
+
+@media(max-width: 991px){
+    .earth, .buttons{
+        display:inline-block;
+    }
+
+    /* #bottom-sec{
+        text-align: center;
+    } */
+    .buttons{
+        position:absolute;
+        margin: 6rem 0 0 2.5rem;
+    }
+}
+
+@media(max-width: 820.60px){
+    .buttons{
+        position:relative; 
+        margin-right: 0.5rem;
+        text-align: center;
+    }
+    .earth{
+        padding-left:3rem;
+    }
+    .card{
+        margin-left: 0.8rem;
+    }
+}
+
+.row1{
+    padding-top: 4rem;
+}
+
+img{
+    width: 60%;
+    padding: 2rem 0;
+}
+
+.ig{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    color:aliceblue;   
+}
+
+.info{
+    color:aliceblue;
+    font-size: 1.2rem;
+    /* padding-right: 1rem; */
+}
+
+.description{
+    padding: 0rem 0rem 0 7rem;
+}
+
+.source{
+    color:gray;
+    padding-bottom: 0rem;
+}
+
+.buttons{
+    margin-top: 1.2rem;
+}
+
+.btn{
+    color: white;
+}
+
+.row2{
+    text-align: center;
+    padding: 5rem 9rem 2rem;
+}
+
+.card{
+    background-color: #15133C;
+    border-color: aliceblue;
+}
+
+.cd{
+    padding-bottom: 1rem;
+}
+
+.pi{
+    color: grey;
+    font-size: 1.0rem;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.1rem;
+    color: white;
+}
