@@ -8,7 +8,7 @@ $(".card1").on("mouseleave", function(){
     $(".card1").animate({
         height: '7.7rem',
         width: '18rem',
-    }, 180,);
+    }, 180);
 })
 
 
